@@ -28,7 +28,7 @@ async function movieList(api, movie) {
         } else {
             alert(movieDetail.Error);
             loader.classList.add("hide");
-            movieList('726ba094', 'avengers');
+            movieList('726ba094', 'indian');
         };
     } catch (error) {
         console.log(error);
